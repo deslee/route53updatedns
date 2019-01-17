@@ -1,0 +1,1 @@
+docker run -d -e 'ZONEID=' -e 'RECORDSET=' -e 'TTL=5' -e 'AWS_ACCESS_KEY_ID=' -e 'AWS_SECRET_ACCESS_KEY=' -e 'SLEEPSECS=' deslee/route53updatedns
